@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Margarita Mexican Cuisine</title>
+    <link rel="stylesheet" href="css.css">
+    <link rel="icon" type="image/x-icon" href="images\others\meal-food-icon.webp">
+    <script src="formvalid.js"></script>
+</head>
+<body>
+
+  <div class="menu-center"><p><img src="images\others\images.png" alt="" height="200" width="200"><h1>Welcome to Margarita Mexican Cuisine</h1> </p>
+  </div>
+
+    <div>
+        <nav>
+            <ul>
+                <li><a target="_self" href="home.html">Home</a></li>                                  
+                <li><a target="_self" href="menu.html">Menu </a></li>
+                <li><a target="_self" href="reservation.html">Reservation</a></li>
+            </ul>
+        </nav>
+    </div>
+
+    <div>
+        <form action="" name="Form" onsubmit="return validateForm()">
+            <fieldset class="fieldset">
+              <legend><img src="images\others\reservations.jpg" alt=""></legend>
+      
+              <br />
+
+              <div>
+                <label> Name</label>
+                <input type="text" name="name" placeholder="Enter Your Name" required>
+              </div>
+<br>
+              <div>
+                <label> Mobile Number</label>
+                <input type="tel" name="mobilenumber" placeholder="Enter Your Mobile Number" required>
+              </div>
+<br>
+              <div>
+                <label> Date For Dine In</label>
+                <input type="date" name="date" placeholder="Enter Your Name" required>
+              </div>
+<br>
+              <div>
+                <label> Time For Dine In</label>
+                <input type="time" name="time" placeholder="Enter Your Name" required>
+              </div>
+<br>
+              <div>
+                <label> Number of Guests</label>
+                <input type="number" name="guest" placeholder="Enter Your Name" required>
+              </div>
+      <br>
+
+      
+              <div>
+                <input type="reset" value="Reset" />
+                <input type="submit" value="Submit" />
+              </div>
+            </fieldset>
+          </form>
+    </div>
+    
+    <div class="bottom">
+      <div>
+          <p>
+              <h2>Location <a href="https://maps.app.goo.gl/PpuJ75A11fXDQ1GH9"> <img src="images\others\location.jpg" alt="" width="40" height="40"> </a></h2> 
+              Margaritas Mexican Cuisine <br>
+              901 N US Highway 67 <br>
+              Kansas City, MO 63123 <br>
+              (816) 838-3500
+          </p>
+      </div>
+
+      <div class="flexgrow">
+          <p>
+              <h2>Open Hours</h2> 
+              Monday - Closed
+              <br>
+              Tues-Thurs - 4:00 pm - 8:00 pm                       
+              <br>
+              Fri-Sun - 4:00 pm-9:00 pm
+              <br>
+          </p>
+
+      </div>
+
+</body>
